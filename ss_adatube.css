@@ -59,7 +59,8 @@ a:hover .tooltip{
 }
 .video-grid {
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    min-width: 2%;
     column-gap: 16px;
     row-gap:40px;
     padding-bottom:40px;
