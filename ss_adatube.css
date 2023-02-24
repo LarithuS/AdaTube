@@ -94,6 +94,29 @@ a:hover .tooltip{
     display:flex;
     grid-template-columns:1fr;
 }
+/*Seperator For the shorts section*/
+.shorts-grid {
+    display:flex;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+}
+.shorts-thumbnail {
+    width: 100%;
+    border-radius:3%;
+}
+.shorts-icon {
+    height:24px;
+}
+.top-section {
+    display:flex;
+    grid-template-columns:1fr 1fr;
+}
+.short-icon {
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 /*Seperator for the header section (the navigation bar */
 
 .header {
