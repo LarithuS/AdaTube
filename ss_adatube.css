@@ -66,7 +66,7 @@ a:hover .tooltip{
     padding-bottom:40px;
     border-style:solid;
     border-color:transparent;
-    border-bottom-color:rgb(192,192,192);
+    border-bottom-color:rgb(217,217,217);
     border-width:4px;
 }
 .video-time {
@@ -92,7 +92,7 @@ a:hover .tooltip{
 .shorts {
     border-style: solid;
     border-color:transparent;
-    border-bottom-color:rgb(192,192,192);
+    border-bottom-color:rgb(217,217,217);
     border-width:4px;
 }
 
@@ -100,6 +100,7 @@ a:hover .tooltip{
     display:flex;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 16px;
+    margin-top:20px;
 }
 .shorts-thumbnail {
     width: 100%;
@@ -115,7 +116,7 @@ a:hover .tooltip{
     grid-template-columns:1fr 1fr;
     justify-content: space-between;
     align-items: center;
-    padding-top:10px;
+    padding-top:20px;
     padding-bottom: 10px;
 
 }
@@ -149,7 +150,7 @@ a:hover .tooltip{
     width: 100%;
     margin-bottom:2px;
     height:38px;
-    margin-top:5px;
+    margin-top:35px;
 }
 .down-button:hover {
     background-color:rgb(217, 217, 217);
@@ -406,4 +407,21 @@ z-index:100;
     background-color:rgb(238, 238, 238);
     cursor:pointer;
     
+}
+/* Post section divider */
+.latest-posts {
+    border-style:solid;
+    border-color:white;
+    border-bottom-color:rgb(217, 217, 217);
+}
+
+.posts-grid {
+    display: flex;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.post-preview {
+    border-style:solid;
+    border-color:rgb(217,217,217);
+    border-radius:3px;
 }
