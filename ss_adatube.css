@@ -69,12 +69,6 @@ a:hover .tooltip{
     border-bottom-color:rgb(192,192,192);
     border-width:4px;
 }
-.shorts {
-    border-style: solid;
-    border-color:transparent;
-    border-bottom-color:rgb(192,192,192);
-    border-width:4px;
-}
 .video-time {
     background-color:black;
     color:white;
@@ -95,6 +89,13 @@ a:hover .tooltip{
     grid-template-columns:1fr;
 }
 /*Seperator For the shorts section*/
+.shorts {
+    border-style: solid;
+    border-color:transparent;
+    border-bottom-color:rgb(192,192,192);
+    border-width:4px;
+}
+
 .shorts-grid {
     display:flex;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
@@ -106,17 +107,58 @@ a:hover .tooltip{
 }
 .shorts-icon {
     height:24px;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 .top-section {
     display:flex;
     grid-template-columns:1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+
 }
 .short-icon {
     display:flex;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.shorts-text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-left:5px;
+}
+.X-button {
+    background-color: transparent;
+    border-style: none;
+    border-radius:50%;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.X-icon {
+    height:25px;
+}
+.X-button:hover{
+    background-color:rgb(217, 217, 217);
 }
 
+.down-button {
+    background-color: transparent;
+    border-style: none;
+    width: 100%;
+    margin-bottom:2px;
+    height:38px;
+    margin-top:5px;
+}
+.down-button:hover {
+    background-color:rgb(217, 217, 217);
+}
 
+.shorts-title {
+    font-weight:500;
+    font-size:13px;
+}
 /*Seperator for the header section (the navigation bar */
 
 .header {
