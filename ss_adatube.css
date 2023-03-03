@@ -425,8 +425,9 @@ z-index:100;
 .post-preview {
     border-style:solid;
     border-color:rgb(217,217,217);
-    border-radius:5px;
+    border-radius:10px;
     border-width:2px;
+    margin-bottom:20px;
 }
 
 .post-content {
@@ -445,6 +446,7 @@ z-index:100;
 }
 .channel-date {
     margin-top:5px;
+    
 }
 .bot-post {
     padding:20px;
@@ -460,5 +462,15 @@ z-index:100;
 }
 .post-buttons:hover {
     background-color:rgb(217, 217, 217);
+    cursor:pointer;
+}
+
+.post-text {
+    font-size:15px;
+}
+.post-text:hover, 
+.channel-date:hover, 
+.post-but-grid:hover,
+.post-img:hover {
     cursor:pointer;
 }
