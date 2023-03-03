@@ -426,7 +426,7 @@ z-index:100;
     border-style:solid;
     border-color:rgb(217,217,217);
     border-radius:10px;
-    border-width:2px;
+    border-width:1px;
     margin-bottom:20px;
 }
 
@@ -472,6 +472,7 @@ z-index:100;
 }
 
 .post-text {
+    padding-top:7px;
     font-size:15px;
 }
 .post-text:hover, 
