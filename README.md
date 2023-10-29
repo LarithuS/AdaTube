@@ -4,7 +4,7 @@
 <ul>
 <li><p>Made at; February 2023</p></li>
 <li><p>Front-end only</p></li>
-<li><p>Changed the color-theme to white&blue.</p></li>
+<li><p>Only Looks! Nothing works other then links.</p></li>
 <li><p>Changed the color-theme to white&blue.</p></li>
 </ul>
 
@@ -14,4 +14,5 @@
 <li><p>Favicons and ico's. </p></li>
 <li><p>Further CSS</p></li>
 <li><p>fURTHER html</p></li>
+<li><p>Basics of using github</p></li>
 </ul>
