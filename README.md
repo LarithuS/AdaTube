@@ -1,5 +1,6 @@
 <h1>My version of YouTube</h1>
 <h4>AdaTube</h4>
+<p><em>Details;</em></p>
 <ul>
 <li><p>February 2023</p></li>
 <li><p>Front-end only</p></li>
